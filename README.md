@@ -54,13 +54,6 @@ Expected worksheet layout: column B holds `Ri`, column C holds `C`, column D hol
 and carries the conditional formatting rules. The first row is treated as a header.
 Use `--column` if the residual risk sits in another column.
 
-## Files
-
-| File | Role |
-| --- | --- |
-| `src/risk_data.py` | Workbook reading, theme colours, conditional formatting rules, grid building |
-| `src/residual_risk_surface.py` | Static Matplotlib figure, two views side by side |
-| `src/residual_risk_interactive.py` | Interactive Plotly figure exported as a standalone HTML file |
 
 ---
 
@@ -124,10 +117,4 @@ colonne D contient `Rr` et porte les regles de mise en forme conditionnelle. La 
 ligne est consideree comme un en tete. L'option `--column` permet d'indiquer une autre
 colonne pour le risque residuel.
 
-## Fichiers
 
-| Fichier | Role |
-| --- | --- |
-| `src/risk_data.py` | Lecture du classeur, couleurs de theme, regles de mise en forme conditionnelle, construction de la grille |
-| `src/residual_risk_surface.py` | Figure statique Matplotlib, deux vues cote a cote |
-| `src/residual_risk_interactive.py` | Figure interactive Plotly exportee en HTML autonome |
