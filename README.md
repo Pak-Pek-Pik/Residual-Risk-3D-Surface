@@ -67,12 +67,6 @@ Use `--column` if the residual risk sits in another column.
 | `src/residual_risk_surface.py` | Static Matplotlib figure, two views side by side |
 | `src/residual_risk_interactive.py` | Interactive Plotly figure exported as a standalone HTML file |
 
-## Notes
-
-`ROUNDUP` is the English name of the Excel function; in a French workbook the same
-formula reads `ARRONDI.SUP(Ri / C; 0)`. The scripts recompute the value in Python, so the
-locale of the workbook does not matter.
-
 ---
 
 # Surface 3D du risque residuel
@@ -140,13 +134,3 @@ colonne pour le risque residuel.
 | `src/risk_data.py` | Lecture du classeur, couleurs de theme, regles de mise en forme conditionnelle, construction de la grille |
 | `src/residual_risk_surface.py` | Figure statique Matplotlib, deux vues cote a cote |
 | `src/residual_risk_interactive.py` | Figure interactive Plotly exportee en HTML autonome |
-
-## Remarques
-
-La capture de la vue interactive provient d'un export precedent en francais. Elle peut
-etre refaite en relancant `residual_risk_interactive.py` puis en utilisant l'icone
-appareil photo de la barre d'outils Plotly.
-
-`ROUNDUP` est le nom anglais de la fonction Excel ; dans un classeur francais la meme
-formule s'ecrit `ARRONDI.SUP(Ri / C ; 0)`. Les scripts recalculent la valeur en Python,
-la langue du classeur n'a donc pas d'importance.
