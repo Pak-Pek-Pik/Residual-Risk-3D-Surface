@@ -80,6 +80,8 @@ Excel, a la fois les regles de mise en forme conditionnelle de la colonne du ris
 residuel et les couleurs de theme stockees dans `xl/theme/`. Modifier les seuils dans
 Excel modifie la figure, sans toucher au code.
 
+![Static surfaces](figures/static_surfaces.png)
+
 ## Ce que font les scripts
 
 * Lecture des couples `(Ri, C)` dans une feuille et recalcul de `Rr` pour chaque couple.
