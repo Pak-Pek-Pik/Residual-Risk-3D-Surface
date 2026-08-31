@@ -12,7 +12,7 @@ The colours are not hard coded: they are read directly from the Excel workbook, 
 the conditional formatting rules of the residual risk column and the theme colours stored
 in `xl/theme/`. Changing the thresholds in Excel changes the figure, with no code edit.
 
-![Static surfaces](assets/static_surfaces.png)
+![Static surfaces](figures/static_surfaces.png)
 
 
 ## What it does
