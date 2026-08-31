@@ -14,11 +14,6 @@ in `xl/theme/`. Changing the thresholds in Excel changes the figure, with no cod
 
 ![Static surfaces](assets/static_surfaces.png)
 
-*Static output, sample grid: the same data with the true `Ri` scale on the left and evenly spaced steps on the right.*
-
-![Interactive view](assets/interactive_view.png)
-
-*Interactive output, rotated to show the ridge where a low control index leaves the residual risk almost untouched.*
 
 ## What it does
 
