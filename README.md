@@ -27,33 +27,6 @@ in `xl/theme/`. Changing the thresholds in Excel changes the figure, with no cod
 * Produces either a PNG (Matplotlib) or a standalone interactive HTML file (Plotly) that
   works offline, with rotation, zoom, hover values and a clickable legend.
 
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-Static figure:
-
-```bash
-python src/residual_risk_surface.py --workbook path/to/workbook.xlsx --sheet Sheet1 --output output/residual_risk_3d.png
-```
-
-Interactive figure:
-
-```bash
-python src/residual_risk_interactive.py --workbook path/to/workbook.xlsx --sheet Sheet1 --output output/residual_risk_3d.html --open
-```
-
-Run either script without `--workbook` to use the built in sample grid and default
-thresholds, which is handy for a quick look without any Excel file.
-
-Expected worksheet layout: column B holds `Ri`, column C holds `C`, column D holds `Rr`
-and carries the conditional formatting rules. The first row is treated as a header.
-Use `--column` if the residual risk sits in another column.
-
 
 ---
 
@@ -88,33 +61,3 @@ Excel modifie la figure, sans toucher au code.
 * Production soit d'un PNG (Matplotlib), soit d'un fichier HTML interactif autonome
   (Plotly) qui fonctionne hors ligne, avec rotation, zoom, valeurs au survol et legende
   cliquable.
-
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
-## Utilisation
-
-Figure statique :
-
-```bash
-python src/residual_risk_surface.py --workbook chemin/vers/classeur.xlsx --sheet Feuil1 --output output/residual_risk_3d.png
-```
-
-Figure interactive :
-
-```bash
-python src/residual_risk_interactive.py --workbook chemin/vers/classeur.xlsx --sheet Feuil1 --output output/residual_risk_3d.html --open
-```
-
-Lances sans `--workbook`, les deux scripts utilisent une grille d'exemple et des seuils
-par defaut, ce qui permet de voir le resultat sans aucun fichier Excel.
-
-Structure de feuille attendue : la colonne B contient `Ri`, la colonne C contient `C`, la
-colonne D contient `Rr` et porte les regles de mise en forme conditionnelle. La premiere
-ligne est consideree comme un en tete. L'option `--column` permet d'indiquer une autre
-colonne pour le risque residuel.
-
-
