@@ -27,7 +27,7 @@ in `xl/theme/`. Changing the thresholds in Excel changes the figure, with no cod
 * Produces either a PNG (Matplotlib) or a standalone interactive HTML file (Plotly) that
   works offline, with rotation, zoom, hover values and a clickable legend.
 
-Residual Hazard 3D Modelisation : ![residual_hazard_3D](figures/residual_hazard_3D.png)
+Interactive 3D Residual Hazard Modelisation : ![residual_hazard_3D](figures/residual_hazard_3d.png)
 
 ---
 
@@ -62,3 +62,5 @@ Excel modifie la figure, sans toucher au code.
 * Production soit d'un PNG (Matplotlib), soit d'un fichier HTML interactif autonome
   (Plotly) qui fonctionne hors ligne, avec rotation, zoom, valeurs au survol et legende
   cliquable.
+
+Modélisation 3D interactive du risque résiduel : ![residual_hazard_3D](figures/residual_hazard_3d.png)
